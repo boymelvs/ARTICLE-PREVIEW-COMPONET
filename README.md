@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Article preview component](./design/desktop-design.jpg)
+![Article preview component](/design/desktop-design.jpg)
 
 ### Links
 
