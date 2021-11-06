@@ -42,3 +42,12 @@ footer {
 footer a {
    text-decoration: none;
 }
+
+/* apply this when javascript active */
+.share_arrow.active {
+   background-color: var(--desaturated-dark-blue);
+}
+
+.arrow_icon.active {
+   filter: invert(100%) brightness(2);
+}

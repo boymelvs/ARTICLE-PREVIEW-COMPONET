@@ -67,11 +67,14 @@
    border-radius: 50%;
    background-color: var(--light-grayish-blue);
    padding: 0.75rem;
+   transition: all 500ms;
    z-index: 999;
 }
 
 .share_arrow:hover {
    cursor: pointer;
+   transform: scale(1.2);
+   transition: all 500ms;
 }
 
 .arrow_icon {
@@ -90,7 +93,6 @@
    padding: 2.5rem;
    border-radius: 0 0 1rem 1rem;
    margin-top: -8rem;
-   /* opacity: 0.5; */
 }
 
 .share_container p {
@@ -109,6 +111,15 @@
 .pinterest_icon {
    width: 3.6rem;
    height: 3.6rem;
+   transition: all 500ms;
+}
+
+.fb_icon:hover,
+.twitter_icon:hover,
+.pinterest_icon:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: all 500ms;
 }
 
 .icon_container ul > li {

@@ -73,6 +73,8 @@
 
 .share_arrow:hover {
    cursor: pointer;
+   transform: scale(1.2);
+   transition: all 500ms;
 }
 
 .arrow_icon {
@@ -118,8 +120,17 @@
 .fb_icon,
 .twitter_icon,
 .pinterest_icon {
-   width: 2.5rem;
-   height: 2.5rem;
+   width: 3.6rem;
+   height: 3.6rem;
+   transition: all 500ms;
+}
+
+.fb_icon:hover,
+.twitter_icon:hover,
+.pinterest_icon:hover {
+   cursor: pointer;
+   transform: scale(1.2);
+   transition: all 500ms;
 }
 
 .icon_container ul > li {
