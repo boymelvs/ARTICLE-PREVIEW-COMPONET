@@ -1,0 +1,137 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.main_content {
+   background-color: var(--bg-white);
+   display: grid;
+   grid-template-columns: repeat(2, 40% 60%);
+   border-radius: 1rem;
+   margin: 0 4rem;
+   box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.image_container {
+   background-image: url("../images/drawers.jpg");
+   background-position: top 0 left -1rem;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   border-radius: 1rem 0 0 1rem;
+}
+
+/* ================= article priview start here ================= */
+.article_title {
+   padding: 2rem 4rem 0 4rem;
+   font-size: 1.8rem;
+   font-weight: var(--font-weight-700);
+   color: var(--very-dark-grayish-blue);
+}
+
+.article_details {
+   margin: 2rem 0;
+   line-height: 2rem;
+   padding: 0 3rem 0 4rem;
+}
+
+/* ================= author information start here ================= */
+.author_profile_container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 3rem 2rem 4rem;
+}
+
+.author_photo {
+   width: 5.5rem;
+   height: 5.5rem;
+   border-radius: 50%;
+}
+
+.photo_name_date_container {
+   display: flex;
+   gap: 1rem; /* between photo and name, date */
+   align-items: center;
+}
+
+.name {
+   margin-bottom: 0.3rem;
+   font-weight: var(--font-weight-700);
+   color: var(--very-dark-grayish-blue);
+}
+
+.share_arrow {
+   border-radius: 50%;
+   background-color: var(--light-grayish-blue);
+   padding: 0.75rem;
+   z-index: 999;
+}
+
+.share_arrow:hover {
+   cursor: pointer;
+}
+
+.arrow_icon {
+   width: 2rem;
+   height: 2rem;
+}
+
+/* ================= social media share start here ================= */
+.share_container {
+   display: none;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 1.5rem; /* between share text and fb icon */
+   background-color: var(--very-dark-grayish-blue);
+   width: 30%;
+}
+
+.pointer {
+   position: absolute;
+   height: 3rem;
+   width: 3rem;
+   background-color: var(--very-dark-grayish-blue);
+   transform: rotate(45deg);
+   bottom: -1.3rem;
+   right: 7rem;
+}
+
+.share_container p {
+   text-transform: uppercase;
+   letter-spacing: 0.5rem;
+}
+
+.icon_container {
+   z-index: 1;
+}
+
+.icon_container ul {
+   display: flex;
+   align-items: center;
+   gap: 1.5rem; /* between each social media icon */
+}
+
+.fb_icon,
+.twitter_icon,
+.pinterest_icon {
+   width: 2.5rem;
+   height: 2.5rem;
+}
+
+.icon_container ul > li {
+   list-style-type: none;
+}
+
+/* apply this when javascript active */
+.share_container.active {
+   display: flex;
+   position: absolute;
+   padding: 1rem 3rem;
+   border-radius: 1rem;
+   bottom: 34rem;
+   right: 0rem;
+}
