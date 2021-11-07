@@ -12,6 +12,7 @@
    grid-template-columns: repeat(2, 40% 60%);
    border-radius: 1rem;
    margin: 4rem;
+   width: 144rem;
    box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.3);
 }
 
@@ -100,7 +101,7 @@
    background-color: var(--very-dark-grayish-blue);
    transform: rotate(45deg);
    bottom: -1.3rem;
-   right: 30rem;
+   right: 13rem;
 }
 
 .share_container p {
@@ -144,6 +145,8 @@
    position: absolute;
    padding: 2rem 3rem;
    border-radius: 1rem;
-   top: 20rem;
-   right: 1rem;
+   top: 27rem;
+   right: 25rem;
+   width: 32rem;
+   animation: fadeIn 300ms linear;
 }

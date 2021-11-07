@@ -100,7 +100,7 @@
    background-color: var(--very-dark-grayish-blue);
    transform: rotate(45deg);
    bottom: -1.3rem;
-   right: 17rem;
+   right: 16rem;
 }
 
 .share_container p {
@@ -144,6 +144,7 @@
    position: absolute;
    padding: 2rem 3rem;
    border-radius: 1rem;
-   top: 32rem;
+   top: 29rem;
    right: 1rem;
+   animation: fadeIn 300ms linear;
 }
